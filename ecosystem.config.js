@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
-    name   : "client",
+    name   : "video",
     script : "./index.js",
     //watch: true,
     //watch_delay: 1000,
