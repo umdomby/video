@@ -26,7 +26,7 @@ const App = () => {
   }
 
   useEffect(() => {
-    signal = new IonSFUJSONRPCSignal("wss://umdom.by:4433/ws");
+    signal = new IonSFUJSONRPCSignal("wss://servicerobot.pro:4434/ws");
     client = new Client(signal, config);
     signal.onopen = () => client.join("test room");
 
